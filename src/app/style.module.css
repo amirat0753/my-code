@@ -1,0 +1,17 @@
+.box{
+  background-image:url('https://th-thumbnailer.cdn-si-edu.com/4vLanHfKvrZ659Px1HIY8uY0aWU=/fit-in/1072x0/https://tf-cmsv2-photocontest-smithsonianmag-prod-approved.s3.amazonaws.com/0f67c1d2e8f1a60ad923a3fabcfe9dd0b40c70f6.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-left: 80px;
+  margin-right: 100px;
+}
+.picture {
+  background-image: url('https://images.pexels.com/photos/5215000/pexels-photo-5215000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-position: center;
+  background-size: cover;
+  width: 100rem;
+  height: 60rem;
+  opacity: 45;
+
+}
+  
