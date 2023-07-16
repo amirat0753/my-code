@@ -6,12 +6,38 @@
   margin-right: 100px;
 }
 .picture {
-  background-image: url('https://images.pexels.com/photos/5215000/pexels-photo-5215000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-image: url('https://images.pexels.com/photos/11623621/pexels-photo-11623621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 80vh;
+  opacity: 45;
+ 
+
+
+}
+.covid {
+  background-image: url('https://images.pexels.com/photos/8465067/pexels-photo-8465067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   background-position: center;
   background-size: cover;
   width: 100rem;
-  height: 60rem;
-  opacity: 45;
-
-}
+  height: 40rem;
+  opacity: 80;
   
+}
+.chair {
+  background-image: url('https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG9zcGl0YWx8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+   background-position: center;
+    background-size: cover;
+    width: 100rem;
+    height: 40rem;
+    opacity: 80;
+}
+.image {
+  background-image: url('images/book.webp');
+  background-position: cover;
+  background-size: cover;
+  width: 45%;
+  height: 110%;
+  border-radius: 20px;
+}

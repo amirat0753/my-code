@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "topic": "ARTICLES",
+    "name": "Dr. Jane Smith",
+    "details": "Should be tested post covid and other necessary tests",
+    "profileImage": "https://media.gettyimages.com/id/1272765482/photo/female-doctor-with-hands-in-pockets-over-white-background.jpg?s=612x612&w=0&k=20&c=Cn_0FPb1iYyosgd4uCmLzn0-x56EH5R3L4Z0SZixKOA="
+  },
+  {
+    "id": "2",
+    "topic": "ARTICLES",
+    "name": "Dr. Jon Doe",
+    "details": "Overeating? Mindfulness and support are essential ",
+    "profileImage": "https://media.gettyimages.com/id/1307155498/photo/smiling-male-doctor-against-gray-background.jpg?s=612x612&w=0&k=20&c=aUeeX6ygz7JmykqBAzOPX-DvGWKpt_ms3wStqup3ytM="
+  },
+  {
+    "id": "3",
+    "topic": "ARTICLES",
+    "name": "Dr. Philips Freeman",
+    "details": "Can vitamin supplements prevent health issues?",
+    "profileImage": "https://media.gettyimages.com/id/1139666077/photo/doctor-wearing-eyeglasses-on-white-background.jpg?s=612x612&w=0&k=20&c=0nbsXkWncImkQ0HyI17t55lny8_BDCrXMm0i7sF-cKo="
+  },
+  {
+    "id": "4",
+    "topic": "ARTICLES",
+    "name": "Dr. Stella Woods",
+    "details": "Are there any dietary restrictions I should follow?",
+    "profileImage": "https://media.gettyimages.com/id/1061001352/photo/portrait-of-confident-senior-female-doctor-in-scrubs.jpg?s=612x612&w=0&k=20&c=GoLdHYVBsJFOMg-dZ7x5p2G8PbaayFpwVfXjdI1UTJE="
+  },
+  {
+    "id": "5",
+    "topic": "ARTICLES",
+    "name": "Dr. Yan Li ",
+    "details": "How can I improve my overall health and well-being?",
+    "profileImage": "https://media.gettyimages.com/id/1290769186/photo/female-doctor-of-asian-descen.jpg?s=612x612&w=0&k=20&c=LDQ1J5K5PyOezRWGAvqCfXEZpMMXQUGjBJppvogyzPo="
+  },
+  {
+    "id": "6",
+    "topic": "ARTICLES",
+    "name": "Dr. Fang Wei",
+    "details": "What can I do to prevent certain health conditions?",
+    "profileImage": "https://media.gettyimages.com/id/1352553877/photo/medical-team-portrait.jpg?s=612x612&w=0&k=20&c=271sENLedS2RF9PZwO906--_wTBUSunKTq9OBx47hf4="
+  },
+  {
+    "id": "7",
+    "topic": "ARTICLES",
+    "name": "Dr. Mary Robert",
+    "details": "How can I manage stress and improve my mental health?",
+    "profileImage": "https://media.gettyimages.com/id/1182452091/photo/portrait-of-a-young-nurse-doctor.jpg?s=612x612&w=0&k=20&c=pjWOVEf2Grozfhf99ippB1u8Nizm0vlRMFJ-yOTK588="
+  }
+]

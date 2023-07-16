@@ -8,7 +8,7 @@ module.exports = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "images.pexels.com",
+        hostname: "media.gettyimages.com",
         port: '',
         pathname: '/**'
       }

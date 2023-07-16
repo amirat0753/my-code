@@ -15,8 +15,9 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
+export let nurse = doctors.slice();
 
-export default function Data() {
+export default function Objects() {
   {
     /*     
       <Link href= {`/${pole.name}`}> */
@@ -33,7 +34,7 @@ export default function Data() {
     <div className="w-full m-auto h-[50%]">
         <article className="text-center m-10 space-y-5">
           <h2 className="text-xl">ARTICLES AND NEWS</h2>
-          <p className="text-3xl font-bold">
+          <p className="text-3xl">
             our articles on health and personal wellness
           </p>
         </article>
@@ -63,7 +64,8 @@ export default function Data() {
                       className=" rounded-md "
                     />
                     <div className="pt-4">
-                    <div className="pb-2">{doctor.topic}</div>
+                    {/* <Link href={`/Doctors/${doctor.id}`}></Link> */}
+                    <div className="pb-2">{doctor.topic}</div> 
                     <div>{doctor.name}</div>
                       <div className="truncate font-bold">{doctor.details}</div>
                        <p className='flex pt-4 text-gray-700 font-light '>

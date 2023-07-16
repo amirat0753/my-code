@@ -9,9 +9,9 @@ import Question from './Components/Question';
 import Schedule from './Components/Schedule';
 
 import Testimonial from './Components/Testimonial';
-import Objects from './Components/Data';
 import Contact from './Components/Contact';
 import List from './Components/Footer';
+import Objects from './Doctors/page';
 
 export default function page() {
   return (
@@ -23,11 +23,9 @@ export default function page() {
         <Video />
         <Question />
         <Schedule />
-        <Objects />
+       <Objects />
       <Testimonial />
-     <Contact />
-        
-  
+      <Contact />
     </div>
       
     

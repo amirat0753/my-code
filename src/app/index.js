@@ -6,10 +6,11 @@ import Schedule from './Components/Schedule';
 import Services from './Components/Services';
 import Video from './Components/Video';
 import Objects from './Components/Data';
-import './globals.css'
+import './global.css'
 import { Poppins } from 'next/font/google'
 import Testimonial from './Components/Testimonial';
 import Footer from './Components/Footer';
+import Contact from '@/pages/contact';
 
 const pop = Poppins({
   subsets: ['latin'],

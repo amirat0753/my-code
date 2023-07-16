@@ -1,52 +1,45 @@
 import React from 'react'
 import Image from 'next/image';
-import { Kanit, } from 'next/font/google';
+import {Poppins } from 'next/font/google';
 import laptop from '../images/laptop.jpg';
 import { AiOutlineCheckCircle } from 'react-icons/ai';
 
 
 
-  const team = Kanit({
-  subsets:['latin'],
-  weight:['500']
-})
 export default function Question() {
   return (
-    <div>
-      <div className='w-[100rem] h-[50%]'>
-        <section className='flex justify-around py-14'>
-          <article className='pt-14 '>
-         <article className={team.className}>
-           <p className='text-3xl py-4'>post your questions our experts are ready to answer</p>
-              <p className='py-4'>we service to you 24/7 will ensure 100% care</p>
-              <ul >
-                <span className='flex gap-4'>
+    <div >
+      <div className='w-full h-[50%]'>
+        <section className='flex justify-around p-14 pb-10'>
+        <article>
+             <p className='text-3xl py-4 font-bold'>Post your questions our experts are ready to answer</p>
+              <p className='py-6  text-lg font-bold'>We service to you 24/7 will ensure 100% care</p>
+            <ul>
+              
+                <span className='flex gap-4 text-lg'>
                   <AiOutlineCheckCircle className='mt-1' />
-                  <li >Teeth modification ? </li>
-                </span>
-                <span className='flex py-7 gap-4'>
+                  <li >What can I do to prevent certain health conditions? </li>
+               </span>
+              
+                <span className='flex py-7 gap-4 text-lg'>
                   <AiOutlineCheckCircle className='mt-1'/>
-                   <li>Obstetrics and Gynecology?</li>
-                </span>
-                 <span className='flex  gap-4'>
+                   <li>What should I eat to maintain a healthy diet?</li>
+              </span>
+              
+                 <span className='flex gap-4 text-lg'>
                   <AiOutlineCheckCircle className='mt-1'/>
-                  <li>Chronic Disease Management?</li>
+                  <li>How can I achieve and maintain a healthy weight?</li>
                   </span>
             <li className='pt-12'>
-              <button className=' rounded-full p-4 bg-blue-500 text-white'>book an appointment?</button>
+              <button className=' rounded-full p-4 bg-blue-500 hover:bg-[#0a132e] text-white'>Book an appointment?</button>
             </li>
-              </ul>
-            
-            </article>
-            
-            
-        </article>
-    
-          
-           <article className='grid justify-between relative  top-24'>
-          <Image src={laptop} alt='nurse on laptop' width={500} height={600} />
+          </ul>
           </article>
-      </section>
+    
+       <span className='pt-8  '>
+          <Image className='border-b-8 border-r-8 rounded-md shadow-xl border-blue-500' src={laptop} alt='nurse on laptop' width={500} height={700} />
+          </span>
+           </section>
           </div>
       </div>
       
