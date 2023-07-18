@@ -48,7 +48,7 @@ export default function BlogPage() {
 
         <div className=' w-[50%] flex items-center justify-center p-24 bg-gradient-to-tr py-28 from-blue-400 via-sky-500 to-indigo-950'>
          
-          <div className={`${style.image}  shadow-2xl shadow-slate-950 border-[8px] h-[130%] w-[45%] border-black `}>
+          <div className={`${style.image}  shadow-2xl shadow-slate-950 border-[8px] h-[130%] w-[47%] border-black `}>
             <p className='text-center mt-0 border ml-16 bg-zinc-900 w-1/2 rounded-md'></p>
             <p className='text-center pt-4 text-2xl text-white'>{currentTime}</p>
             <p className='text-center text-white'>{formattedDate}</p>
@@ -101,7 +101,7 @@ export default function BlogPage() {
       </div>
       <div>
         <article className='text-center'>
-        <h2 className=' text-4xl border-b-blue-500 p-4 font-bold '>Featured topics</h2>
+        <h2 className=' text-4xl border-b-blue-500 p-4 font-bold'>Featured topics</h2>
         <p className='text-lg'>Our featured topics cover a wide range of health-related areas, ensuring that you have access to reliable and up-to-date content.</p>
         </article>
         <div className=" m-24">
