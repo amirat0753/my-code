@@ -21,7 +21,7 @@ export default function company() {
     <div className={doctor.className}>
       <div className={styles.picture}>
         <article className='grid justify-center text-center pt-60 space-y-7'>
-          <h1 className='text-4xl font-extrabold'>MIRA'S HEALTHCARE</h1>
+          <h1 className='text-4xl font-extrabold'>MIRA&apos;S HEALTHCARE</h1>
           <p className='text-2xl text-white'>
             Our mission is to provide exceptional
             <em className='text-[#0a132e]'> healthcare services </em> to our patients, <br />
@@ -44,9 +44,9 @@ export default function company() {
           </div>
           <div className='w-full md:w-1/2 '>
             <section className='pl-14 space-y-4'>
-              <h2 className='text-3xl font-bold'>About Mira's <span className='text-[#4977f6]'>healthcare</span> </h2>
+              <h2 className='text-3xl font-bold'>About Mira <span className='text-[#4977f6]'>healthcare</span> </h2>
              <p className='text-lg font-bold'>
-               <em className='text-[#4977f6]'> Mira's Healthcare</em> is a visionary and patient-centric healthcare <br />
+               <em className='text-[#4977f6]'> Mira Healthcare</em> is a visionary and patient-centric healthcare <br />
                 organization committed to
                 revolutionizing the way healthcare is delivered.
               </p>

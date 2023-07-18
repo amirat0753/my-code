@@ -30,27 +30,29 @@ export default function BlogPage() {
 
   return (
     <section>
-      <div className='md:w-full h-screen flex pt-36'>
+      <div className='md:w-full h-screen flex pt-32'>
         <div className='h-[100%] w-[50%] px-28 bg-neutral-200 '>
           <h1 className='pt-24 text-4xl md:w-4/5 uppercase pb-5 font-bold'>
-            Welcome to <span className='text-blue-700'>mira's</span> healthcare blog 
+            Welcome to <span className='text-blue-700'>mira</span> healthcare blog 
           </h1>
           <p className='text-lg md:w-full '>
             A trusted source of health information, inspiration, and empowerment. This is a space dedicated to sharing
             insightful articles, stories, and resources that aim to empower, educate, and inspire our valued patients,
             caregivers, and the community at large.
           </p>
-          <button className='mt-10 border text-white font-semibold p-4 rounded-lg bg-gradient-to-tr from-blue-600 via-sky-500 to-indigo-950 hover:bg-blue-500'>
+          <button className='mt-10 border text-white font-semibold p-4 rounded-lg bg-gradient-to-tr from-blue-600 via-sky-600 to-indigo-950 hover:bg-blue-500'>
             Book an appointment
           </button>
         </div>
 
-        <div className='h-[100%] w-[50%] flex items-center justify-center p-24 bg-gradient-to-tr from-blue-400 via-sky-500 to-indigo-950'>
-          <div className={`${style.image} shadow-md shadow-black border-[8px]  border-black `}>
+        <div className=' w-[50%] flex items-center justify-center p-24 bg-gradient-to-tr py-28 from-blue-400 via-sky-500 to-indigo-950'>
+         
+          <div className={`${style.image}  shadow-xl shadow-slate-950 border-[8px] h-[140%] w-[45%] border-black `}>
             <p className='text-center mt-0 border ml-16 bg-zinc-900 w-1/2 rounded-md'></p>
-            <p className='text-center pt-4 text-xl text-white'>{currentTime}</p>
+            <p className='text-center pt-4 text-2xl text-white'>{currentTime}</p>
             <p className='text-center text-white'>{formattedDate}</p>
-          </div>
+            </div>
+         
         </div>
       </div>
 
@@ -98,7 +100,7 @@ export default function BlogPage() {
       </div>
       <div>
         <article className='text-center'>
-        <h2 className=' text-4xl   border-b-blue-500 p-4 font-bold '>Featured topics</h2>
+        <h2 className=' text-4xl border-b-blue-500 p-4 font-bold '>Featured topics</h2>
         <p className='text-lg'>Our featured topics cover a wide range of health-related areas, ensuring that you have access to reliable and up-to-date content.</p>
         </article>
         <div className=" m-24">
@@ -112,11 +114,11 @@ export default function BlogPage() {
               // scrollbar={{ draggable: true }}
               onSwiper={(swiper) => console.log(swiper)}
               onSlideChange={() => console.log("slide change")}>
-              {topic.map((topics) => (
-                <div className="w-[500px] ">
-                  <SwiperSlide
-                    key={topics.id}
-                    className="border shadow-md  bg-slate-300 p-10 rounded-lg hover:shadow-black ">
+                  {topic.map((topics) => (
+                <div className="w-[500px]" key={topics.id}>
+                <SwiperSlide
+                className="border shadow-md bg-slate-300 p-10 rounded-lg hover:shadow-black">
+    
                     <Image 
                       src={topics.profileImage}
                       width={450}

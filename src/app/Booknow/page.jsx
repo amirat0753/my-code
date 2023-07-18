@@ -1,12 +1,11 @@
 import React from 'react';
-import styles from '../style.module.css';
-import {Poppins} from 'next/font/google'
+
 
 
 export default function Booknow() {
   return (
     <div>
-      <div className='p-14 pt-48 space-y-6  text-[#0a132e] '>
+      <div className='p-14 pt-48 space-y-6  text-[#0a132e]'>
         <h2 className='text-center text-3xl font-bold text-[#0a132e]'>
           Book an appointment with us for a better experience
         </h2>

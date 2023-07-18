@@ -3,6 +3,9 @@
     "id": "1",
     "topic": "ARTICLES",
     "name": "Dr. Jane Smith",
+     "description": [{
+     "content": "Dr. Philips Freeman explores the potential benefits of vitamin supplements in preventing health issues.He shares insights into how specific vitamin supplements can complement a healthy lifestyle and possibly reduce the risk of certain health conditions."
+     }],
     "details": "Should be tested post covid and other necessary tests",
     "profileImage": "https://media.gettyimages.com/id/1272765482/photo/female-doctor-with-hands-in-pockets-over-white-background.jpg?s=612x612&w=0&k=20&c=Cn_0FPb1iYyosgd4uCmLzn0-x56EH5R3L4Z0SZixKOA="
   },
@@ -10,6 +13,10 @@
     "id": "2",
     "topic": "ARTICLES",
     "name": "Dr. Jon Doe",
+     "description": [{
+     "content": " Dr. Jon Doe emphasizes the importance of mindfulness and support when dealing with overeating. He believes that developing a mindful eating habit and seeking support from friends, family, or professionals can significantly help manage overeating tendencies."
+
+     }],
     "details": "Overeating? Mindfulness and support are essential ",
     "profileImage": "https://media.gettyimages.com/id/1307155498/photo/smiling-male-doctor-against-gray-background.jpg?s=612x612&w=0&k=20&c=aUeeX6ygz7JmykqBAzOPX-DvGWKpt_ms3wStqup3ytM="
   },
@@ -17,6 +24,9 @@
     "id": "3",
     "topic": "ARTICLES",
     "name": "Dr. Philips Freeman",
+    "description": [{
+     "content": "Dr. Philips Freeman explores the potential benefits of vitamin supplements in preventing health issues.He shares insights into how specific vitamin supplements can complement a healthy lifestyle and possibly reduce the risk of certain health conditions."
+     }],
     "details": "Can vitamin supplements prevent health issues?",
     "profileImage": "https://media.gettyimages.com/id/1139666077/photo/doctor-wearing-eyeglasses-on-white-background.jpg?s=612x612&w=0&k=20&c=0nbsXkWncImkQ0HyI17t55lny8_BDCrXMm0i7sF-cKo="
   },
@@ -24,6 +34,9 @@
     "id": "4",
     "topic": "ARTICLES",
     "name": "Dr. Stella Woods",
+    "description": [{
+     "content": "Dr. Philips Freeman explores the potential benefits of vitamin supplements in preventing health issues.He shares insights into how specific vitamin supplements can complement a healthy lifestyle and possibly reduce the risk of certain health conditions."
+     }],
     "details": "Are there any dietary restrictions I should follow?",
     "profileImage": "https://media.gettyimages.com/id/1061001352/photo/portrait-of-confident-senior-female-doctor-in-scrubs.jpg?s=612x612&w=0&k=20&c=GoLdHYVBsJFOMg-dZ7x5p2G8PbaayFpwVfXjdI1UTJE="
   },

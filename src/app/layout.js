@@ -1,11 +1,11 @@
 import Header from './Components/Header';
-import Navbar from './Components/Navbar';
-import News from './Components/News';
-import Question from './Components/Question';
-import Schedule from './Components/Schedule';
-import Services from './Components/Services';
-import Video from './Components/Video';
-import Objects from './Components/Data';
+import { Nav } from './Components/Nav';
+import { News } from './Components/News';
+import { Question } from './Components/Question';
+import { Schedule } from './Components/Schedule';
+import { Services } from './Components/Services';
+import { Video } from './Components/Video';
+import { Objects } from './Components/Data';
 import './globals.css'
 import { Poppins } from 'next/font/google'
 import Testimonial from './Components/Testimonial';
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={pop.className}>
-        <Navbar />
+        <Nav />
         {children}
        <Footer />
        </body>

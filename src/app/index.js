@@ -1,5 +1,5 @@
 import Header from './Components/Header';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Nav';
 import News from './Components/News';
 import Question from './Components/Question';
 import Schedule from './Components/Schedule';

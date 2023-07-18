@@ -38,7 +38,7 @@ export default function Objects() {
             our articles on health and personal wellness
           </p>
         </article>
-
+         
         <div className=" m-24">
           <section>
             <Swiper
@@ -63,9 +63,11 @@ export default function Objects() {
                       alt="image"
                       className=" rounded-md "
                     />
+                      <Link href={`/Doctors/${doctor.id}`}>
                     <div className="pt-4">
-                    {/* <Link href={`/Doctors/${doctor.id}`}></Link> */}
-                    <div className="pb-2">{doctor.topic}</div> 
+                  
+                        <div className="pb-2">{doctor.topic}</div>
+                        
                     <div>{doctor.name}</div>
                       <div className="truncate font-bold">{doctor.details}</div>
                        <p className='flex pt-4 text-gray-700 font-light '>
@@ -73,7 +75,7 @@ export default function Objects() {
                   </p>
                 
                         </div>
-            
+                       </Link>
                   </SwiperSlide>
                 </div>
               ))}
@@ -82,6 +84,6 @@ export default function Objects() {
           </section>
         </div>
       </div>
-  
+      
   );
 }
