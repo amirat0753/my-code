@@ -34,7 +34,7 @@ export default function services() {
               injuries or life-threatening conditions.
             </p>
             <p className='font-sans pt-3  text-sky-500'>
-              <a href="https://www.who.int/health-topics/emergency-care#tab=tab_1">learn more</a>
+              <Link href="https://www.who.int/health-topics/emergency-care#tab=tab_1">learn more</Link>
               </p>
           </article>
          
@@ -48,7 +48,7 @@ export default function services() {
               diagnose and monitor diseases and conditions.
             </p>
             <p className='font-sans pt-3 text-sky-500'>
-              <a href="https://en.wikipedia.org/wiki/X-ray"> learn more</a>
+              <Link href="https://en.wikipedia.org/wiki/X-ray"> learn more</Link>
             </p>
           </article>
          
@@ -61,7 +61,7 @@ export default function services() {
             <h2 className='text-2xl font-bold pb-2'>Maternity Care</h2>
             <p className=''>We provide prenatal care, labor and delivery services for expectant mothers and newborns.</p>
             <p className='font-sans pt-12  text-sky-500'>
-              <a href="https://en.wikipedia.org/wiki/Maternal_health"> learn more</a>
+              <Link href="https://en.wikipedia.org/wiki/Maternal_health"> learn more</Link>
             </p> 
           </article>
          
@@ -76,7 +76,7 @@ export default function services() {
               general surgery, neurosurgery, and more.
             </p>
               <p className='font-sans pt-3 text-sky-500'>
-              <a href="https://en.wikipedia.org/wiki/Surgery"> learn more</a>
+              <Link href="https://en.wikipedia.org/wiki/Surgery"> learn more</Link>
              </p>
           </article>
          
@@ -91,7 +91,7 @@ export default function services() {
                and education to help individuals maintain their health .  
             </p>
               <p className='font-sans pt-2 text-sky-500'>
-              <a href="https://en.wikipedia.org/wiki/Outline_of_counseling"> learn more</a>
+              <Link href="https://en.wikipedia.org/wiki/Outline_of_counseling"> learn more</Link>
              </p>
           </article>
          
@@ -104,7 +104,7 @@ export default function services() {
               We offer rehabilitation programs and services for patients recovering from surgeries, injuries, including physical therapy and speech therapy.  
             </p>
               <p className='font-sans pt-5  text-sky-500'>
-              <a href="https://en.wikipedia.org/wiki/Rehabilitation"> learn more</a>
+              <Link href="https://en.wikipedia.org/wiki/Rehabilitation"> learn more</Link>
              </p>
           </article>
         

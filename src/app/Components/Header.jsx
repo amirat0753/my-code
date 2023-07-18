@@ -29,7 +29,7 @@ export default function Header() {
            </article>
      
         <span className='pt-48 pr-0 w-full md:w-1/2'>
-          <Image   src={nurses} alt= 'doctor performing surgery' width={700} height={500} />
+          <Image src={nurses} alt= 'doctor performing surgery' width={700} height={500} />
           </span>
       </div>
   </div>

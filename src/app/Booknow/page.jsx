@@ -15,7 +15,7 @@ export default function Booknow() {
           in a welcoming and comfortable environment.
         </p>
         <article className=' border-double border-8 bg-slate-100 border-blue-600 p-14 text-lg '>
-          <h2 className='font-bold text-xl '>DOCTOR'S APPOINTMENT FORM</h2>
+          <h2 className='font-bold text-xl '>DOCTOR&apos;S APPOINTMENT FORM</h2>
           <form className='grid  space-y-7 text-lg ' >
             <label htmlFor='firstName'>Name</label>
             <input className='border-b-2' type='text' id='firstName' placeholder='First name'required />

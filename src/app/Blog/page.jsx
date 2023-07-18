@@ -11,6 +11,7 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 import { BsFacebook } from 'react-icons/bs';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { BsYoutube } from 'react-icons/bs';
+import Link from 'next/link';
 export default function BlogPage() {
   const time = new Date();
   const hours = time.getHours();
@@ -30,10 +31,10 @@ export default function BlogPage() {
 
   return (
     <section>
-      <div className='md:w-full h-screen flex pt-32'>
+      <div className='md:w-full h-screen flex pt-36'>
         <div className='h-[100%] w-[50%] px-28 bg-neutral-200 '>
           <h1 className='pt-24 text-4xl md:w-4/5 uppercase pb-5 font-bold'>
-            Welcome to <span className='text-blue-700'>mira</span> healthcare blog 
+            Welcome to <span className='text-blue-700'>mira&apos;s</span> healthcare blog 
           </h1>
           <p className='text-lg md:w-full '>
             A trusted source of health information, inspiration, and empowerment. This is a space dedicated to sharing
@@ -47,7 +48,7 @@ export default function BlogPage() {
 
         <div className=' w-[50%] flex items-center justify-center p-24 bg-gradient-to-tr py-28 from-blue-400 via-sky-500 to-indigo-950'>
          
-          <div className={`${style.image}  shadow-xl shadow-slate-950 border-[8px] h-[140%] w-[45%] border-black `}>
+          <div className={`${style.image}  shadow-2xl shadow-slate-950 border-[8px] h-[130%] w-[45%] border-black `}>
             <p className='text-center mt-0 border ml-16 bg-zinc-900 w-1/2 rounded-md'></p>
             <p className='text-center pt-4 text-2xl text-white'>{currentTime}</p>
             <p className='text-center text-white'>{formattedDate}</p>
@@ -141,27 +142,27 @@ export default function BlogPage() {
             <div className='flex justify-center pt-12  pb-4 w-[100%]'>
               <p className='flex space-x-6'>
                 <span  className='hover:shadow-md hover:shadow-black hover:animate-spin hover:duration-75  border rounded-full p-1 bg-gradient-to-bl from-purple-700 via-pink-500 to-orange-500'>
-                <a href="https://www.instagram.com/accounts/emailsignup/">
+                <Link href="https://www.instagram.com/accounts/emailsignup/">
                   <AiOutlineInstagram className='text-white ' size={40} />
-                  </a>
+                  </Link>
                 </span>
 
                 <span className='hover:shadow-md hover:shadow-black hover:animate-bounce hover:duration-75'>
-                 <a href="https://web.facebook.com/signup?_rdc=1&_rdr">
+                 <Link href="https://web.facebook.com/signup?_rdc=1&_rdr">
                   <BsFacebook size={45} className='text-blue-500 ' />
-                  </a>
+                  </Link>
                 </span>
                 
                 <span className='hover:shadow-md hover:rounded-full hover:shadow-black hover:animate-pulse hover:duration-75'  >
-               <a href="https://twitter.com/i/flow/signup">
+               <Link href="https://twitter.com/i/flow/signup">
                 <AiFillTwitterCircle  className='text-sky-500'size={50} />
-                  </a>
+                  </Link>
                 </span>
 
                  <span className=' hover:animate-pulse hover:duration-75'  >
-               <a href="https://youtu.be/E3QpXj_QOqQ">
+               <Link href="https://youtu.be/E3QpXj_QOqQ">
                 <BsYoutube className='text-red-600'size={50} />
-                  </a>
+                  </Link>
                   </span>
               </p>
               <p className='text-xl pl-4 pt-2'>Follow us for more info</p>
