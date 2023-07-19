@@ -36,7 +36,7 @@ export default function News() {
     
       <div >
         <div className='text-center pt-20 text-2xl text-white'>
-         <p>We've been mentioned in the press</p>
+         <p>We&#39;ve been mentioned in the press</p>
         </div>
         
         <ul className='flex justify-around p-12 pb-20 text-[#4977f6] text-2xl'>

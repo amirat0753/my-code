@@ -1,7 +1,6 @@
 import React from 'react'
 
-export default function 
-() {
+export default function Contact () {
   return (
     <div className='bg-sky-200 w-full h-[] p-24 '>
       <div className=' text-center'>

@@ -52,7 +52,7 @@ export default function Objects() {
               onSwiper={(swiper) => console.log(swiper)}
               onSlideChange={() => console.log("slide change")}>
               {doctors.map((doctor) => (
-                <div className="w-[500px] ">
+                <div key={doctors.id} className="w-[500px]">
                   <SwiperSlide
                     key={doctor.name}
                     className="border shadow-md  bg-slate-100 p-10 rounded-lg ">

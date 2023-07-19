@@ -19,7 +19,7 @@ export default function Services() {
             <div className="bg-purple-200 p-6 text-center">
               <span className='flex justify-center  text-purple-900 '><TbDentalOff  /></span>
               <h2 className='font-bold pb-2'>CAVITY FILLING</h2>
-              <p>It restores the tooth's structure while preventing further decay.</p>
+              <p>It restores the tooth&#39;s structure while preventing further decay.</p>
             </div>
 
             <div className="bg-blue-200 p-5 text-center">

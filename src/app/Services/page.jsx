@@ -20,7 +20,7 @@ export default function services() {
 
       <section className="pt-44 text-black bg-gradient-to-b from-sky-500 via-[#082b95] to-blue-500  pl-20 p-16">
         <h1 className="text-4xl text-white text-center py-4 font-bold">Our Medical Services</h1>
-        <p className='text-center text-2xl text-white m-2'>"Empowering Patients and <em className='text-[#0a132e] font-bold'>Transforming Lives"</em> </p>
+        <p className='text-center text-2xl text-white m-2'>&#34;Empowering Patients and <em className='text-[#0a132e] font-bold'>Transforming Lives&#34;</em> </p>
         <article className="grid grid-cols-4 gap-10 bg-white p-14 rounded-md shadow-xl shadow-black">
             
           <span>

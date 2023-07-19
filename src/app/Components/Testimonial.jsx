@@ -30,7 +30,7 @@ export default function Testimonial() {
                 <ImQuotesLeft />
                </span>
             <p>
-            I appreciate Dr. Margaret's exceptional care, <br />
+            I appreciate Dr. Margaret&#39;s exceptional care, <br />
               professionalism, and dedication to my well-being.
             </p>
              <p>
