@@ -63,37 +63,38 @@ export default function company() {
           </div>
         </div>
         <div className='bg-slate-200 p-20'>
-          <h2 className='text-4xl text-center uppercase text-slate-900 pb-8 font-bold '>meet our doctors</h2>
-          <div className='flex justify-between gap-x-14 font-bold'>
-            <section className='text-lg border-[8px]  p-9  bg-slate-900 shadow-md shadow-black rounded-md text-white'>
-              <Image className='rounded-md'src={coat} alt='doctor in labcoat' width={500} height={400} />
-              <p className='pt-4'>Name: Dr. Rodriguez</p>
-              <p>Specialty: Internal Medicine</p>
+          <h2 className='text-4xl text-center uppercase text-[#0a132e] pb-8 font-bold '>meet our doctors</h2>
+          <div className='grid grid-cols-5 justify-between'>
+            <section className='text-lg  p-9  text-[#0a132e]'>
+              <Image src={coat} alt='doctor in labcoat' width={500} height={400} />
+              <p className='pt-4'><span className='font-bold'>Name:</span> Dr. Rodriguez</p>
+              <p><span className='font-bold'>Specialty:</span> Internal Medicine</p>
             </section>
 
-             <section className='text-lg border-[8px] p-9 shadow-md  shadow-black rounded-md bg-slate-900 text-white'>
-              <Image className='rounded-md'src={teeth} alt='doctor in labcoat' width={500} height={400} />
-               <p className='pt-4'>Name: Dr. Smith </p>
-               <p>Specialty: Pediatrics </p>
+             <section className='text-lg  p-9 text-[#0a132e]'>
+              <Image src={teeth} alt='doctor in labcoat' width={500} height={400} />
+               <p className='pt-4'><span className='font-bold'>Name: </span> Dr. Smith </p>
+               <p><span className='font-bold'>Specialty:</span> Pediatrics </p>
                
             </section>
  
-             <section className='text-lg border-[8px] shadow-md  p-9 bg-slate-900  shadow-black rounded-md text-white'>
-              <Image className='rounded-md' src={bald} alt='doctor in labcoat' width={500} height={400} />
-              <p className='pt-4'>Name: Dr. Johnson</p>
-               <p>Specialty: Dermatology</p>  
+             <section className='text-lg  p-9  text-[#0a132e]'>
+              <Image src={bald} alt='doctor in labcoat' width={500} height={400} />
+              <p className='pt-4'><span className='font-bold'>Name: </span> Dr. Johnson</p>
+               <p className='font-bold'><span className='font-bold'>Specialty:</span> Specialty: psychology</p>  
             </section>
 
-            <section className='text-lg border-[8px]  p-9 bg-slate-900 rounded-md shadow-md shadow-black text-white '>
-              <Image className='rounded-md' src={glasses} alt='doctor in labcoat' width={500} height={400} />
-               <p className='pt-4'>Name: Dr. Johnson</p>
-               <p>Specialty: Dermatology</p>    
+            <section className='text-lg  p-9  text-[#0a132e]'>
+                <Image src={glasses} alt='doctor in labcoat' width={500} height={400} />
+               <p className='pt-4'><span className='font-bold'>Name: </span> Dr. Johnson</p>
+                  <p><span className='font-bold'>Specialty:</span> Dermatology</p>  
+               
             </section>
 
-            <section className='text-lg  p-9 bg-slate-900 shadow-md shadow-black border-[8px] rounded-md text-white'>
-              <Image className='rounded-md' src={nurse} alt='doctor in labcoat' width={500} height={400} />
-               <p className='pt-4'>Name: Dr. Johnson</p>
-               <p>Specialty: Dermatology</p>  
+            <section className='text-lg  p-9  text-[#0a132e]'>
+              <Image  src={nurse} alt='doctor in labcoat' width={500} height={400} />
+               <p className='pt-4'><span className='font-bold'>Name: </span> Dr. Johnson</p>
+               <p><span className='font-bold'>Specialty:</span>surgery</p>  
             </section>
           </div>
            

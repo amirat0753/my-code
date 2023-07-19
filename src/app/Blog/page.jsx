@@ -4,7 +4,7 @@ import Image from 'next/image';
 import style from '../style.module.css';
 import hand from '../images/hand.jpeg';
 import { TypewriterClass } from 'typewriter-effect';
-import topic from '../json/topic'
+import featured from '../json/featured'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
 import { AiOutlineInstagram } from 'react-icons/ai';
@@ -12,6 +12,9 @@ import { BsFacebook } from 'react-icons/bs';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { BsYoutube } from 'react-icons/bs';
 import Link from 'next/link';
+
+
+  export let topic = featured.slice();
 export default function BlogPage() {
   const time = new Date();
   const hours = time.getHours();
@@ -27,12 +30,12 @@ export default function BlogPage() {
   };
   const formattedDate = date.toLocaleDateString('en-US', options);
  
-
+  
 
   return (
     <section>
       <div className='md:w-full h-screen flex pt-36'>
-        <div className='h-[100%] w-[50%] px-28 bg-neutral-200 '>
+        <div className='h-[100%] w-[50%] px-28 bg-neutral-200  '>
           <h1 className='pt-24 text-4xl md:w-4/5 uppercase pb-5 font-bold'>
             Welcome to <span className='text-blue-700'>mira&apos;s</span> healthcare blog 
           </h1>
@@ -48,8 +51,7 @@ export default function BlogPage() {
 
         <div className=' w-[50%] flex items-center justify-center p-24 bg-gradient-to-tr py-28 from-blue-400 via-sky-500 to-indigo-950'>
          
-          <div className={`${style.image}  shadow-2xl shadow-slate-950 border-[8px] h-[130%] w-[47%] border-black `}>
-            <p className='text-center mt-0 border ml-16 bg-zinc-900 w-1/2 rounded-md'></p>
+          <div className={`${style.image}  shadow-2xl shadow-slate-950 border-[8px] h-[147%] w-[46%] border-black `}>
             <p className='text-center pt-4 text-2xl text-white'>{currentTime}</p>
             <p className='text-center text-white'>{formattedDate}</p>
             </div>
@@ -115,25 +117,29 @@ export default function BlogPage() {
               // scrollbar={{ draggable: true }}
               onSwiper={(swiper) => console.log(swiper)}
               onSlideChange={() => console.log("slide change")}>
-                  {topic.map((topics) => (
+                  {featured.map((topics) => (
                 <div className="w-[500px]" key={topics.id}>
                 <SwiperSlide
-                className="border shadow-md bg-slate-300 p-10 rounded-lg hover:shadow-black">
-    
+                        className="border shadow-md bg-slate-300 p-10 rounded-lg hover:shadow-black">
+                        
+                    <Link href={`/Blog/${topics.id}`}>
+                          
                     <Image 
                       src={topics.profileImage}
                       width={450}
                       height={50}
                       alt="image"
                       className=" rounded-md "
-                    />
+                        />
+                         
                     <div className="pt-4">
                     <div className="pb-2 text-lg ">{topics.topic}</div>
                     <div>{topics.name}</div>
                       <div className="truncate font-bold">{topics.details}</div>
                       
-                    </div>
-                    
+                  </div>
+                    </Link>
+                   
                   </SwiperSlide>
                 </div>
               ))}

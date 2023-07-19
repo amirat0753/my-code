@@ -24,7 +24,7 @@
     "id":"3",
     "topic":"Children's Health",
      "description": [{ 
-      "content": "This topic addresses various aspects of women's health, including reproductive health, pregnancy, menopause, breast health, cervical cancer screening, and contraception options. It aims to provide comprehensive information and support for women at different stages of their lives, empowering them to make informed decisions about their health and well-being."
+      "content": "This topic provides valuable information on pediatric care, child development milestones, vaccination schedules, common childhood illnesses, and parenting tips. It aims to support parents and caregivers in ensuring the health and well-being of children as they grow and develop."
      }],
     "details":"Provide information on pediatric care, child development milestones, vaccination schedules, common childhood illnesses, and parenting tips.",
     "profileImage": "https://media.gettyimages.com/id/1398709836/photo/father-wiping-toddler-daughters-nose.jpg?s=612x612&w=0&k=20&c=QTNjFPFrg-NUeE5wek4V7rD-lPiVUGljRxm4psKTXnA="
@@ -34,7 +34,7 @@
     "id":"4",
     "topic":"Fitness and Exercise",
      "description": [{ 
-      "content": "This topic addresses various aspects of women's health, including reproductive health, pregnancy, menopause, breast health, cervical cancer screening, and contraception options. It aims to provide comprehensive information and support for women at different stages of their lives, empowering them to make informed decisions about their health and well-being."
+      "content": "This topic offers exercise routines, workout plans, and tips for incorporating physical activity into daily life. It covers different types of exercises, their benefits, and safety precautions, aiming to encourage individuals to lead active and healthy lifestyles."
      }],
     "details":"Provide exercise routines, workout plans, and tips for incorporating physical activity into daily life. Cover different types of exercises, their benefits, and safety precautions.",
     "profileImage": "https://media.gettyimages.com/id/1426186305/photo/happy-woman-looking-at-female-friend-doing-yoga-at-home.jpg?s=612x612&w=0&k=20&c=mOd5_qomZ4Q6CCgzATQkgu9iRDwDm4w6871256ntLgc="
@@ -44,7 +44,8 @@
     "id":"5",
     "topic":"Men's Health",
      "description": [{ 
-      "content": "This topic addresses various aspects of women's health, including reproductive health, pregnancy, menopause, breast health, cervical cancer screening, and contraception options. It aims to provide comprehensive information and support for women at different stages of their lives, empowering them to make informed decisions about their health and well-being."
+      "content": "This topic discusses men's health concerns like prostate health, erectile dysfunction, testosterone levels, and preventive measures for common male-specific conditions. It aims to raise awareness about men's health issues and promote proactive approaches to maintaining good health."
+
      }],
     "details":"Discuss men's health concerns like prostate health, erectile dysfunction, testosterone levels, and preventive measures for common male-specific conditions.",
     "profileImage": "https://media.gettyimages.com/id/1478423497/photo/mature-doctor-discussing-with-man-at-clinic.jpg?s=612x612&w=0&k=20&c=nCDolRusImYxMqRAaQsv09glFufEDektNLjRWmADluQ="
@@ -53,7 +54,7 @@
     "id":"6",
     "topic":"Aging and Geriatric Care",
      "description": [{ 
-      "content": "This topic addresses various aspects of women's health, including reproductive health, pregnancy, menopause, breast health, cervical cancer screening, and contraception options. It aims to provide comprehensive information and support for women at different stages of their lives, empowering them to make informed decisions about their health and well-being."
+      "content": "This topic covers health issues specific to older adults, such as mobility, cognitive health, fall prevention, managing chronic conditions, and resources for senior care. It provides valuable information and support for older individuals and their caregivers to promote healthy aging and quality of life."
      }],
     "details":"Cover health issues specific to older adults, such as mobility, cognitive health, fall prevention, managing chronic conditions, and resources for senior care.",
     "profileImage": "https://media.gettyimages.com/id/1062186846/photo/clinical-doctor-giving-test-results-to-patients.jpg?s=612x612&w=0&k=20&c=D1OL-5BK6wx0TQl-CIZ-PNi5iC-fx-oQWG77AcO4Xq8="

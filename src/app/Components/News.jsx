@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { Poppins, Lobster,Amarante, Kavoon, Ewert,Nosifer,Rakkas
+import { Poppins, UnifrakturCook, Lobster,Amarante, Kavoon, Ewert,Nosifer,Rakkas
  } from 'next/font/google';
 
 
@@ -17,9 +17,9 @@ const page  = Amarante({
   subsets: ['latin'],
   weight: ['400']
 })
- const post = Kavoon({
+ const post = UnifrakturCook({
   subsets: ['latin'],
-  weight: ['400']
+  weight: ['700']
  })
 const shape = Ewert({
   subsets: ['latin'],

@@ -3,8 +3,9 @@
     "id": "1",
     "topic": "ARTICLES",
     "name": "Dr. Jane Smith",
+     "qualification": "MD, Internal Medicine",
      "description": [{
-     "content": "Dr. Philips Freeman explores the potential benefits of vitamin supplements in preventing health issues.He shares insights into how specific vitamin supplements can complement a healthy lifestyle and possibly reduce the risk of certain health conditions."
+     "content": "Dr. Jane Smith recommends that individuals should be tested post-covid and undergo other necessary health screenings. Regular testing is crucial to ensure early detection and prompt treatment of any potential health issues. In the aftermath of the COVID-19 pandemic, it becomes even more critical to monitor our health closely. "
      }],
     "details": "Should be tested post covid and other necessary tests",
     "profileImage": "https://media.gettyimages.com/id/1272765482/photo/female-doctor-with-hands-in-pockets-over-white-background.jpg?s=612x612&w=0&k=20&c=Cn_0FPb1iYyosgd4uCmLzn0-x56EH5R3L4Z0SZixKOA="
@@ -13,6 +14,7 @@
     "id": "2",
     "topic": "ARTICLES",
     "name": "Dr. Jon Doe",
+    "qualification" : "MD, Psychiatry",
      "description": [{
      "content": " Dr. Jon Doe emphasizes the importance of mindfulness and support when dealing with overeating. He believes that developing a mindful eating habit and seeking support from friends, family, or professionals can significantly help manage overeating tendencies."
 
@@ -24,6 +26,7 @@
     "id": "3",
     "topic": "ARTICLES",
     "name": "Dr. Philips Freeman",
+     "qualification" : "PhD, Nutrition and Dietetics",
     "description": [{
      "content": "Dr. Philips Freeman explores the potential benefits of vitamin supplements in preventing health issues.He shares insights into how specific vitamin supplements can complement a healthy lifestyle and possibly reduce the risk of certain health conditions."
      }],
@@ -34,8 +37,9 @@
     "id": "4",
     "topic": "ARTICLES",
     "name": "Dr. Stella Woods",
+    "qualification": "MD, Internal Medicine",
     "description": [{
-     "content": "Dr. Philips Freeman explores the potential benefits of vitamin supplements in preventing health issues.He shares insights into how specific vitamin supplements can complement a healthy lifestyle and possibly reduce the risk of certain health conditions."
+     "content": "Dr. Stella Woods addresses dietary restrictions and their importance. She provides valuable insights into various dietary approaches that can promote better health and well-being."
      }],
     "details": "Are there any dietary restrictions I should follow?",
     "profileImage": "https://media.gettyimages.com/id/1061001352/photo/portrait-of-confident-senior-female-doctor-in-scrubs.jpg?s=612x612&w=0&k=20&c=GoLdHYVBsJFOMg-dZ7x5p2G8PbaayFpwVfXjdI1UTJE="
@@ -44,6 +48,10 @@
     "id": "5",
     "topic": "ARTICLES",
     "name": "Dr. Yan Li ",
+     "qualification" : "MD, Family Medicine",
+    "description": [{
+     "content": "Dr. Yan Li shares practical tips and advice on how individuals can improve their overall health and well-being. From healthy lifestyle choices to exercise and mental well-being, Dr. Yan Li's insights cover various aspects of a holistic approach to health."
+     }],
     "details": "How can I improve my overall health and well-being?",
     "profileImage": "https://media.gettyimages.com/id/1290769186/photo/female-doctor-of-asian-descen.jpg?s=612x612&w=0&k=20&c=LDQ1J5K5PyOezRWGAvqCfXEZpMMXQUGjBJppvogyzPo="
   },
@@ -51,6 +59,10 @@
     "id": "6",
     "topic": "ARTICLES",
     "name": "Dr. Fang Wei",
+     "qualification" : "PsyD, Clinical Psychology",
+    "description": [{
+     "content": "Dr. Fang Wei focuses on preventive measures against certain health conditions. He educates readers on lifestyle changes, screenings, and proactive steps they can take to reduce the risk of developing specific illnesses."
+     }],
     "details": "What can I do to prevent certain health conditions?",
     "profileImage": "https://media.gettyimages.com/id/1352553877/photo/medical-team-portrait.jpg?s=612x612&w=0&k=20&c=271sENLedS2RF9PZwO906--_wTBUSunKTq9OBx47hf4="
   },
@@ -58,6 +70,10 @@
     "id": "7",
     "topic": "ARTICLES",
     "name": "Dr. Mary Robert",
+     "qualification" : "PsyD, Clinical Psychology",
+    "description": [{
+     "content": "Dr. Mary Robert delves into effective stress management techniques and strategies to improve mental health. Her expertise covers mindfulness, relaxation exercises, and seeking professional help when needed.."
+     }],
     "details": "How can I manage stress and improve my mental health?",
     "profileImage": "https://media.gettyimages.com/id/1182452091/photo/portrait-of-a-young-nurse-doctor.jpg?s=612x612&w=0&k=20&c=pjWOVEf2Grozfhf99ippB1u8Nizm0vlRMFJ-yOTK588="
   }
