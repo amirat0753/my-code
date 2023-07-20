@@ -81,7 +81,7 @@ export default function company() {
              <section className='text-lg  p-9  text-[#0a132e]'>
               <Image src={bald} alt='doctor in labcoat' width={500} height={400} />
               <p className='pt-4'><span className='font-bold'>Name: </span> Dr. Johnson</p>
-               <p className='font-bold'><span className='font-bold'>Specialty:</span> Specialty: psychology</p>  
+               <p className='font-bold'><span className='font-bold'>Specialty:</span> psychology</p>  
             </section>
 
             <section className='text-lg  p-9  text-[#0a132e]'>

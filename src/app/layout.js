@@ -1,5 +1,5 @@
 import Header from './Components/Header';
-import { Nav } from './Components/Nav';
+import Navbar from './Components/Navbar';
 import { News } from './Components/News';
 import { Question } from './Components/Question';
 import { Schedule } from './Components/Schedule';
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={pop.className}>
-        <Nav />
+        <Navbar />
         {children}
        <Footer />
        </body>

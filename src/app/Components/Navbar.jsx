@@ -9,12 +9,8 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineInstagram,AiFillTwitterCircle,A
 
 
 
-export const Nav = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const handleNav = () => {
-    setMenuOpen(!menuOpen);
-  }
+export  default function Navbar () {
+ 
   return (
         
     <div className='bg-white '>
@@ -26,7 +22,7 @@ export const Nav = () => {
         </span>
         </Link>
         <div className='hidden sm:flex'>
-          <ul className='flex justify-around gap-14 uppercase pt-14 pl-40 text-xl'>
+          <ul className='flex justify-around gap-14 uppercase pt-14 pl-40 text-lg'>
            
 
              
@@ -49,8 +45,8 @@ export const Nav = () => {
                   
          
           </ul>
-        </div>
-        <div>
+         </div> 
+        {/* <div>
           <div onClick={handleNav} className='md:hidden cursor-pointer pl-24'>
             <AiOutlineMenu size={25} />
           </div>
@@ -107,7 +103,7 @@ export const Nav = () => {
               width={120}
               height={50} />
         </span>
-        </Link>
+        </Link> */}
         </nav>
        </div>
 

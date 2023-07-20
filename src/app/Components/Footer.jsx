@@ -6,6 +6,7 @@ import { SiWorldhealthorganization } from 'react-icons/si'
 import { BiPhoneCall } from 'react-icons/bi'; 
 import { MdOutlineMail } from 'react-icons/md';
 import { BsHospital } from 'react-icons/bs';
+import {AiFillCopyrightCircle} from 'react-icons/ai'
 import Link from 'next/link';
 
 
@@ -13,7 +14,7 @@ const year = new Date().getFullYear()
 export default function List() {
   return (
     <div>
-      <main className='flex justify-around bg-[#0a132e] p-12 pt-32 text-white w-full '>
+      <main className='flex justify-around bg-[#0a132e] gap-16 p-12 pt-32 text-white w-full '>
          
         <div className='pt-12 relative bottom-12 text-lg '>
           <span className='flex'>
@@ -104,6 +105,14 @@ export default function List() {
               No 42 montgomery road, yaba Lagos, Nigeria
             </p>
           </span>
+          <span className='flex justify-end pt-20  text-lg font-bold'>
+          <p className='pt-1 '>
+              <AiFillCopyrightCircle size={20} />
+            </p>
+            <p>
+                Copyright 2023 All rights reserved
+            </p>
+            </span>
         </section>
       
         </main>

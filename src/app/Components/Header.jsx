@@ -9,7 +9,7 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <div>
-    <div className='flex bg-sky-400 pb-0 justify-between pt-14 gap-24 w-full h-[100%]'>
+    <div className='flex bg-sky-400 pb-0 justify-between pt-14 gap-24 w-full h-[120%]'>
        <article className='pl-32 pt-48 space-y-7'>
          <h1 className='text-5xl text-[#0a132e] '>
           Prioritizing your health<br />
@@ -22,7 +22,7 @@ export default function Header() {
             </p>
            
             <Link href={'/Booknow'}>
-          <button className='border p-4 rounded-[10px] text-white shadow-md bg-[#0a132e] hover:text-[#4977f6]'>
+          <button className='border p-4 rounded-[10px]  text-white shadow-md bg-[#0a132e] hover:text-[#4977f6]'>
               Book an Appointment
           </button>
             </Link>
