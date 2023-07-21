@@ -11,8 +11,8 @@ import Link from 'next/link';
 
 export default function contact() {
   return (
-    <div>
-      <section className='grid grid-cols-2 justify-center pt-48 mr-16 w-full '>
+    <div className='w-full'>
+      <section className='grid grid-cols-2 justify-center pt-48 mr-16  '>
         <div className=''>
           <Image className="rounded-r-full" src={woman} alt="doctor smiling" width={700} height={600} />
         </div>
