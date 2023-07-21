@@ -17,7 +17,7 @@ export  default function Navbar () {
         
       <nav className='flex justify-between shadow-md fixed w-full pr-44 bg-white z-50' >
        <Link href={'/'} >
-            <span className=' '>
+            <span>
               <Image className=' transform  hover:translate-x-4  duration-75 animate-pulse w-[150px] h-[140px]' src={dental} alt='dental logo'width={120} height={50}  />
         </span>
         </Link>
