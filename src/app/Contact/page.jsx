@@ -19,7 +19,7 @@ export default function contact() {
         <div className='mx-14 pb-2 mb-16'>
           <h2 className='text-2xl pb-3 font-bold'>CONTACT US</h2>
           <form className='grid grid-col-2 space-y-7 text-lg '>
-            <label  htmlFor="name"> Name</label>
+            <label  htmlFor="name">Names</label>
               <input className='border-b-2' type="text" placeholder="Enter your name" required />
             
             <label htmlFor="email">Email  </label>
