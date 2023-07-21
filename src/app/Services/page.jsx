@@ -29,7 +29,7 @@ export default function services() {
 
           <article>
              <h2 className='text-2xl font-bold pb-2'> Emergency Care </h2>
-              <p className=''>
+              <p>
               We have emergency departments that provide immediate medical attention to individuals experiencing severe
               injuries or life-threatening conditions.
             </p>
@@ -41,7 +41,7 @@ export default function services() {
           </span>
             <article >
             <h2 className='text-2xl font-bold pb-2'>Diagnostic Services</h2>
-            <p className=''>
+            <p>
               We offer diagnostic services such as imaging (X-rays, CT scans, MRI scans) and other procedures to help
               diagnose and monitor diseases and conditions.
             </p>
@@ -55,7 +55,7 @@ export default function services() {
           <article>
            
             <h2 className='text-2xl font-bold pb-2'>Maternity Care</h2>
-            <p className=''>We provide prenatal care, labor and delivery services for expectant mothers and newborns.</p>
+            <p>We provide prenatal care, labor and delivery services for expectant mothers and newborns.</p>
           
           </article>
          
@@ -65,7 +65,7 @@ export default function services() {
           </span>
           <article>
             <h2 className='text-2xl font-bold pb-2'> Surgery</h2>
-            <p className=''>
+            <p>
               We have operating rooms and surgical teams that perform a wide range of surgical procedures, including
               general surgery, neurosurgery, and more.
             </p>
@@ -78,7 +78,7 @@ export default function services() {
           </span>
           <article>
             <h2 className='text-2xl font-bold pb-1'>Preventive Care</h2>
-            <p className=''>
+            <p>
               Our Hospital promote preventive healthcare by offering services like vaccinations, counseling,<br />
                and education to help individuals maintain their health .  
             </p>
@@ -90,7 +90,7 @@ export default function services() {
           </span>
            <article>
             <h2 className='text-2xl font-bold pb-2'>Rehabilitation Services</h2>
-            <p className=''>
+            <p>
               We offer rehabilitation programs and services for patients recovering from surgeries, injuries, including physical therapy and speech therapy.  
             </p>
              
