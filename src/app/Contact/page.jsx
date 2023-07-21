@@ -11,15 +11,15 @@ import Link from 'next/link';
 
 export default function contact() {
   return (
-    <div className='w-full'>
-      <section className='grid grid-cols-2 justify-center pt-48 mr-16  '>
-        <div>
+    <div className='w-full '>
+      <section className='grid grid-cols-2 justify-center pt-48 mr-16 '>
+        <div className=''>
           <Image className="rounded-r-full" src={woman} alt="doctor smiling" width={700} height={600} />
         </div>
         <div className='mx-14 pb-2 mb-16'>
           <h2 className='text-2xl pb-3 font-bold'>CONTACT US</h2>
           <form className='grid grid-col-2 space-y-7 text-lg '>
-            <label  htmlFor="name">Names</label>
+            <label  htmlFor="name"> Name</label>
               <input className='border-b-2' type="text" placeholder="Enter your name" required />
             
             <label htmlFor="email">Email  </label>
