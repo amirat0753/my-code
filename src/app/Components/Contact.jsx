@@ -1,6 +1,14 @@
+"use client"
 import React from 'react'
 
-export default function Contact () {
+import { useState } from 'react';
+export default function Contact() {
+
+  const [alertMessage, setAlertMessage] = useState('');
+
+  const handleAlert = () => {
+    setAlertMessage('Message sent'); 
+  };
   return (
     <div className='bg-sky-200 w-full h-[] p-24 '>
       <div className=' text-center'>
@@ -25,7 +33,7 @@ export default function Contact () {
           <input type="text" name="message" placeholder='Type your message here' className='w-[585px] h-[200px] pb-32 pl-4 border' />
           </form>
           <div className=' text-left w-32 mx-14 p-2 rounded-sm  bg-blue-600 hover:bg-[#0a132e] text-white'>
-            <button >Submit Now</button>
+            <button onClick={handleAlertg} >Submit Now</button>
             </div>
          </div>
 
