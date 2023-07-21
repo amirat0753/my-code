@@ -51,7 +51,7 @@ export default function BlogPage() {
 
         <div className=' w-[50%] flex items-center justify-center p-24 bg-gradient-to-tr py-28 from-blue-400 via-sky-500 to-indigo-950'>
          
-          <div className={`${style.image}  shadow-2xl shadow-slate-950 border-[8px] h-[80%] w-[46%] border-black `}>
+          <div className={`${style.image}  shadow-2xl shadow-slate-950 border-[8px] h-[90%] w-[46%] border-black `}>
             <p className='text-center pt-4 text-2xl text-white'>{currentTime}</p>
             <p className='text-center text-white'>{formattedDate}</p>
             </div>
