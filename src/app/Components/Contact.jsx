@@ -33,7 +33,7 @@ export default function Contact() {
           <input type="text" name="message" placeholder='Type your message here' className='w-[585px] h-[200px] pb-32 pl-4 border' />
           </form>
           <div className=' text-left w-32 mx-14 p-2 rounded-sm  bg-blue-600 hover:bg-[#0a132e] text-white'>
-            <button onClick={handleAlertg} >Submit Now</button>
+            <button onClick={handleAlert} >Submit Now</button>
             </div>
          </div>
 
