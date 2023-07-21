@@ -13,7 +13,7 @@ export default function contact() {
   return (
     <div className='w-full'>
       <section className='grid grid-cols-2 justify-center pt-48 mr-16  '>
-        <div className=''>
+        <div>
           <Image className="rounded-r-full" src={woman} alt="doctor smiling" width={700} height={600} />
         </div>
         <div className='mx-14 pb-2 mb-16'>
@@ -33,7 +33,7 @@ export default function contact() {
         </div>
       
          
-        <section className='flex m-14  border-blue-700 ml-24 gap-12'>
+        <section className='flex m-14  border-blue-700 ml-24 gap-12 w-full'>
 
             <article className='border px-20 text-center pt-9 text-white bg-sky-500 rounded-md p-10 '>
               <span className='flex justify-around pb-4'>
